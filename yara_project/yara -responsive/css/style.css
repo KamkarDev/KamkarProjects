@@ -1,0 +1,178 @@
+@font-face {
+    font-family:iransans;
+    src: url(../font/IRANSans.ttf) format('ttf');
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    direction: rtl !important;
+    font-family: iransans;
+    font-size: 0.8rem;
+    text-align: right!important;
+    background-color:#f2f2f2;
+}
+
+  /* --------navbar----------- */
+  .cu-navbar{
+      width: 100%;
+      background-color: #fff;
+      display: flex;
+      direction: rtl;
+  }
+  .nav-item .nav-link{
+      color: #000;
+      margin: 5px 10px ;
+      
+  }
+  .nav-item .nav-link:hover{
+     background-color: #eeeeee;
+     border-radius:10px;
+}
+  .cu-nav-item{
+     width: 70%;
+      margin: 5px 20px ;
+      background-color: #fff;
+      padding: 0px 115px 0 0;
+      line-height: 58px;
+  }
+  .cu-nav-item ul{
+      display: flex;
+}
+.cu-nav-item a{
+   text-decoration: none;
+   padding-left:1.5rem;
+   color: #000;
+}
+.cu-nav-item a:hover{
+    color: rebeccapurple;
+}
+ .cu-nav-item a li{
+     list-style: none;
+
+ }
+ /* --------------logo--------------------- */
+.logo{
+    width: 20%;
+    text-align: center;
+    background-color: #fff;
+    padding: 0 !important;
+}
+.logo img{
+    height: 50px;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* -------------card-------------- */
+.title-se {
+    padding: 3.5rem 1.5rem 0.5rem 0;
+    margin: 0;
+}
+.row-custom{
+    display: flex;
+    width: 100%;
+    max-width: 100% !important;
+    justify-content: center;
+}
+.card{
+    position: relative;
+    height: 350px;
+    margin-left: 20px;
+    border-radius: 5px;
+    border: none;
+    
+}
+
+.card .card-top-img1{
+    height: 69%;
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    border-radius: 5px
+}
+ .card-top-img{
+    height: 39%;
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    border-radius: 5px
+}
+.cu-card-body{
+    
+    width: 100%;
+    height: 46%;
+    top: 155px;
+    background-color: #fff;
+    position: absolute;
+    padding-left: 10px;
+    border-radius: 5px
+
+}
+.cu-card-title{
+    display: flex;
+}
+.cu-card-title h4{
+    font-size: 16px !important;
+    padding-top:0.7rem ;
+    width: 100%;
+    background-color: #fff; 
+    justify-content: right;
+}
+.cu-card-title button{
+    width: 60px;
+    height: 30px;
+    top: -10px;
+    left: 10px;
+    background-color: #17801b;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    position: absolute;
+}
+.cu-card-text{
+    width: 100%;
+    margin: 0.6rem 0px;
+    font-size: 12px;
+
+}
+.cu-icon{
+    direction: ltr;
+    display: flex;
+
+}
+.cu-icon span{
+    display: flex;
+    align-items: center;
+    align-items: center;
+    margin-left: 10px;
+    font-size: 11px;
+}
+
+.cu-card-footer{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    padding: 12px 12px 10px;
+    margin-top: 5px;
+    border-top: 1px solid #eeeeee;
+}
+
+.cu-card-footer img{
+    width: 35px;
+    height: 35px;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    margin-left: 10px;
+}
